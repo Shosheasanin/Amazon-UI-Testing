@@ -1,13 +1,15 @@
 
+
 /**
- * Amazon UI Testing - Selenium WebDriver
+ * Amazon UI Testing using Selenium WebDriver
+ * Author: Shoshe Asanin
  *
- * Test TC01: Verify the Amazon homepage
- *
- * This test opens Amazon, checks whether
- * the search box is visible, and saves
- * a screenshot of the result.
+ * TC01: Verify homepage search box
+ * TC02: Search for laptops
+ * TC03: Verify laptop product results
+ * TC04: Change search term to keyboards
  */
+
 
 const { Builder, By, until, Key } = require('selenium-webdriver');
 const fs = require('fs');
